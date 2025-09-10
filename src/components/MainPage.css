@@ -16,7 +16,7 @@ body {
   direction: rtl;
   color: #626262;
 
-  background: url("vecteezy_the-sky-is-blue-and-cloudy_44592778.png") no-repeat center;
+  background: url("/vecteezy_the-sky-is-blue-and-cloudy_44592778.png") no-repeat center;
   background-size: cover;
   overflow: hidden; /* hides overflow of the image if needed */
 }

@@ -55,7 +55,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: url("shiny-metal-plate-grunge-background.jpg") no-repeat center;
+  background: url("/shiny-metal-plate-grunge-background.jpg") no-repeat center;
   background-size: cover;
   opacity: 0.4;
   z-index: 0;
