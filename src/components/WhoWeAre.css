@@ -1,0 +1,150 @@
+/* ===== Who We Are Section ===== */
+.who-we-are-section {
+  width: 100%;
+  min-height: 700px;  /* smaller section height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b9b9b9; /* background color */
+  padding: 40px 20px;
+}
+
+.who-we-are-card {
+  display: flex;
+  width: 80%;              /* smaller card width */
+  background-color: white;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2); /* softer shadow */
+  border-radius: 30px;     /* slightly smaller radius */
+  overflow: hidden;
+  flex-direction: row-reverse; /* image left, text right */
+}
+
+/* ===== Text Area ===== */
+.who-we-are-text {
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;  /* RTL for Arabic */
+}
+
+.green-title {
+  color: green;
+  font-size: 42px;       /* smaller */
+  margin-bottom: 15px;
+}
+
+.black-title {
+  color: black;
+  font-size: 28px;       /* smaller */
+  margin-bottom: 15px;
+}
+
+.black-paragraph {
+  color: black;
+  font-size: 18px;       /* smaller */
+  line-height: 1.6;
+}
+
+/* ===== Image Area ===== */
+.who-we-are-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  overflow: hidden; /* keeps rounded corners */
+}
+
+.who-we-are-image img {
+  width: 85%;           /* smaller image */
+  height: auto;
+  object-fit: cover;
+  border-radius: 90px;  /* all sides rounded */
+  display: block;
+}
+
+/* ===== iPad (1024px) ===== */
+@media (max-width: 1024px) {
+  .who-we-are-section {
+    min-height: 600px;
+    padding: 30px 15px;
+  }
+
+  .who-we-are-card {
+    width: 90%;
+    border-radius: 25px;
+  }
+
+  .green-title {
+    font-size: 34px;
+  }
+
+  .black-title {
+    font-size: 20px;
+  }
+
+  .black-paragraph {
+    font-size: 16px;
+  }
+
+  .who-we-are-text {
+    padding: 20px;
+  }
+
+  .who-we-are-image img {
+    width: 80%;
+    border-radius: 25px;
+  }
+}
+
+/* ===== Mobile (767px) ===== */
+@media (max-width: 767px) {
+  .who-we-are-section {
+    min-height: auto;
+    padding: 20px 10px;
+  }
+
+  .who-we-are-card {
+    width: 95%;
+    flex-direction: column; /* stack */
+    border-radius: 20px;
+  }
+
+  .green-title {
+    font-size: 38px;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+
+  .black-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+
+  .black-paragraph {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: right;
+  }
+
+  .who-we-are-text {
+    padding: 15px;
+    order: 2;
+  }
+
+  .who-we-are-image {
+    width: 100%;
+    height: auto;
+    order: 1;
+    border-radius: 20px;
+  }
+
+  .who-we-are-image img {
+    width: 60%;
+    border-radius: 20px; /* keep all corners rounded */
+    margin: 0 auto;
+  }
+}

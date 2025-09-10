@@ -1,0 +1,140 @@
+*{
+  font-family: RH-Zak, sans-serif;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 150px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background: #fff;
+  border-radius: 100px;
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.5);
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: -20px; /* pushes it upward to overlap the section */
+  position: relative;
+  z-index: 10; /* ensures it's above the section */
+  padding: 20px;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse; /* icon on right, text on left */
+  text-align: right;
+  gap: 15px;
+  flex: 1;
+  padding: 0 10px;
+}
+
+.icon-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  padding-left: 10px;
+}
+
+.icon-circle img {
+  width: 100px;
+  height: 100px;
+}
+
+.service-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-text h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00a6b9;
+  margin: 0;
+}
+
+.service-text p {
+  font-size: 15px;
+  color: #444;
+  margin: 5px 0 0;
+}
+
+.background {
+  background-color: #b9b9b9; /* Solid grey background */
+  height: 80px;
+  width: 100%;
+  z-index: 5;
+}
+
+/* iPad responsive styles (768px - 1024px) */
+@media (max-width: 1024px) {
+  .services-container {
+    max-width: 90%;
+    padding: 15px;
+    padding-right: 80px;
+    border-radius: 70px;
+    margin-top: -15px;
+  }
+  
+  .service-item {
+    gap: 12px;
+  }
+  
+  .icon-circle {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .icon-circle img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .service-text h3 {
+    font-size: 18px;
+  }
+  
+  .service-text p {
+    font-size: 14px;
+  }
+  
+  .background {
+    height: 70px;
+  }
+}
+
+/* Mobile responsive styles (up to 767px) */
+@media (max-width: 767px) {
+  .services-container {
+    padding: 8px;
+    padding-right: 30px;
+    border-radius: 30px;
+  }
+  
+  .icon-circle {
+    width: 35px;
+    height: 25px;
+  }
+  
+  .icon-circle img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .service-text h3 {
+    font-size: 8px;
+  }
+  
+  .service-text p {
+    font-size: 7px;
+  }
+  
+  .background {
+    height: 45px;
+  }
+}
