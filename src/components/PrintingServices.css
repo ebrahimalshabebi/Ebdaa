@@ -53,7 +53,7 @@
   }
 }
 
-/* Mobile responsive styles (up to 767px) */
+/* Mobile responsive styles (up to 767px)*/
 @media (max-width: 767px) {
   .hero1 {
     height: 400px;
