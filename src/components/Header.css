@@ -207,7 +207,6 @@ body {
   }
 
   .nav ul {
-    gap: clamp(0.3rem, 1.5vw, 4rem); /* tighter spacing */
     margin-left: 10px;
   }
 
@@ -216,6 +215,6 @@ body {
   }
 
   .nav a {
-    font-size: x-small; /* shrink links */
+    font-size: 0.5rem; /* shrink links */
   }
 }

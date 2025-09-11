@@ -104,7 +104,7 @@
   }
   
   .background {
-    height: 70px;
+    height: 100px;
   }
 }
 
@@ -135,46 +135,36 @@
   }
   
   .background {
-    height: 45px;
+    height: 85px;
   }
 }
 /* Extra extra small mobile devices (up to 430px) - ULTRA COMPACT */
 @media (max-width: 430px) {
   .services-container {
-    padding: 4px 8px;      /* very small padding */
-    border-radius: 15px;
-    margin-top: -3px;
+    padding: 4px;
+    padding-right: 15px;
+    border-radius: 30px;
   }
-
+  
   .icon-circle {
-    width: 20px;
-    height: 20px;
-    padding: 0;
+    width: 15px;
+    height: 15px;
   }
-
+  
   .icon-circle img {
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
   }
-
+  
   .service-text h3 {
-    font-size: 6px;        /* extremely small */
-    margin: 2px 0;
+    font-size: 6px;
   }
-
+  
   .service-text p {
-    font-size: 5px;
-    line-height: 1;
-    margin: 1px 0;
+    font-size: 6px;
   }
-
-  .service-item {
-    gap: 3px;               /* tighter spacing */
-    flex-direction: column-reverse; /* stack icon above text */
-    text-align: center;
-  }
-
+  
   .background {
-    height: 25px;
+    height: 85px;
   }
 }

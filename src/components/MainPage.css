@@ -143,7 +143,7 @@ body {
 /* Extra small mobile devices (up to 430px) - ULTRA COMPACT */
 @media (max-width: 430px) {
   .hero-section {
-    min-height: 250px;   /* much smaller */
+    min-height: 280px;   /* much smaller */
     padding: 15px 10px;  /* compact padding */
   }
 
@@ -169,8 +169,8 @@ body {
   }
 
   .hero-image {
-    max-width: 150px;    /* much smaller image */
-    left: -20px;
+    max-width: 250px;    /* much smaller image */
+    left: -1px;
   }
 }
 

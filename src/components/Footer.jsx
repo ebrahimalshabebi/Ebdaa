@@ -38,10 +38,13 @@ const Footer = () => {
             <img src="whatsapp.png" alt="WhatsApp" />
             <span>777730311</span>
           </a>
-          <div className="footer-item">
+          <a 
+            href="mailto:info@ebdaa-media.com" 
+            className="footer-item"
+          >
             <img src="mail.png" alt="Email" />
             <span>info@ebdaa-media.com</span>
-          </div>
+          </a>
           <div className="footer-item">
             <img src="web.png" alt="Website" />
             <span>www.ebdaa-media.com</span>
