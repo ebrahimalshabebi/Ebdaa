@@ -60,33 +60,6 @@ const Features = () => {
         width: "100%",
        }}>
       </div>
-    <div className="stats-container">
-      <div className="stat-box">
-        <h3>
-           <span>عملائنا</span> +1
-        </h3>
-        <img src="customers.png" alt="عملائنا" className="stat-icon" />
-      </div>
-
-      <div className="stat-box">
-        <h3>
-           <span>مشروعات</span> +1
-        </h3>
-        <img src="projects.png" alt="مشروعات" className="stat-icon" />
-      </div>
-
-      <div className="stat-box">
-        <h3>
-           <span>عملاء نشطون</span> +1
-        </h3>
-        <img src="goodCustomers.png" alt="عملاء نشطون" className="stat-icon" />
-      </div>
-    </div>
-    <div style={{ background: "#b9b9b9",
-        height: "100px",
-        width: "100%",
-       }}>
-      </div>
       </>
   );
 };
