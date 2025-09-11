@@ -142,18 +142,12 @@
     padding: 0 10px;
   }
 
-  .digital-ads-header-line {
-    flex-direction: column;
-    gap: 5px;
-    text-align: center;
-  }
-
-  .digital-ads-header-line .digital-ads-line {
-    width: 100px;
-  }
+.digital-ads-header-line .digital-ads-line {
+  max-width: 60px;
+}
 
   .digital-ads-header-line h1 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   .digital-ads-description {

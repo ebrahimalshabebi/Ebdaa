@@ -139,3 +139,38 @@
     height: 12px;
   }
 }
+
+/* Small phone responsive styles (up to 430px) */
+@media (max-width: 430px) {
+  .carousel-container {
+    height: 280px;  /* smaller height */
+  }
+  
+  .carousel-track {
+    height: 240px;  /* adjust track height */
+  }
+  
+  .arrow-img {
+    width: 35px;    /* smaller arrows */
+    height: 35px;
+  }
+  
+  .carousel-button-prev {
+    left: 8px;
+  }
+  
+  .carousel-button-next {
+    right: 8px;
+  }
+  
+  .carousel-indicators {
+    bottom: 20px;   /* move indicators closer */
+    gap: 8px;       /* smaller gap */
+  }
+  
+  .carousel-indicator {
+    width: 10px;    /* smaller dots */
+    height: 10px;
+  }
+}
+

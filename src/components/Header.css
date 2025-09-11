@@ -185,3 +185,37 @@ body {
     font-size: 0.8rem;
   }
 }
+
+/* Extra extra small mobile devices (up to 430px) - ULTRA COMPACT */
+@media (max-width: 430px) {
+  .header {
+    height: 60px;  /* smaller header */
+  }
+
+  .logo-top img {
+    height: 25px;  /* smaller logo */
+    margin-top: 0.3rem;
+  }
+
+  .tagline {
+    height: 12px;
+    margin-right: 10px;
+  }
+
+  .nav {
+    padding: 0.4rem 0.6rem;
+  }
+
+  .nav ul {
+    gap: clamp(0.3rem, 1.5vw, 4rem); /* tighter spacing */
+    margin-left: 10px;
+  }
+
+  .nav ul li {
+    font-size: 0.7rem; /* smaller text */
+  }
+
+  .nav a {
+    font-size: x-small; /* shrink links */
+  }
+}

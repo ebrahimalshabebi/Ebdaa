@@ -9,7 +9,7 @@ const MainPage = () => {
 
       {/* Left side: text */}
       <div className="hero-text">
-        <h1>إبداع ميدا ميديا  للدعاية والاعلان</h1>
+        <h1>إبداع ميديا  للدعاية والاعلان</h1>
         <img src="text-07.png" alt="Brand Logo" className="hero-logo" />
         <p>
         {`تعد الدعاية والاعلان من أهم الأدوات

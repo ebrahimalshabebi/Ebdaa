@@ -140,3 +140,37 @@ body {
     left: -40px;
   }
 }
+/* Extra small mobile devices (up to 430px) - ULTRA COMPACT */
+@media (max-width: 430px) {
+  .hero-section {
+    min-height: 250px;   /* much smaller */
+    padding: 15px 10px;  /* compact padding */
+  }
+
+  .hero-text {
+    max-width: 90%;
+    padding-top: 2px;
+  }
+
+  .hero-text h1 {
+    font-size: 16px;     /* very small heading */
+    margin-bottom: 5px;
+  }
+
+  .hero-logo {
+    max-width: 120px;    /* shrink logo */
+    margin: 5px 0;
+  }
+
+  .hero-text p {
+    font-size: 10px;     /* very small text */
+    line-height: 1.1;
+    margin-inline-start: 5px;
+  }
+
+  .hero-image {
+    max-width: 150px;    /* much smaller image */
+    left: -20px;
+  }
+}
+
