@@ -30,11 +30,23 @@
 .hero1 h1 {
   font-size: 44px;
   font-weight: bold;
+  color: black; 
+  text-shadow:
+    -1px -1px 0 white,
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white;
 }
 
 .hero1 p {
   font-size: 39px;
   margin-top: 15px;
+  color: black;
+  text-shadow:
+    -1px -1px 0 white,
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white;
 }
 
 /* iPad responsive styles (768px - 1024px) */

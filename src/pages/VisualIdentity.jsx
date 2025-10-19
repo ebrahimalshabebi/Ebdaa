@@ -41,7 +41,7 @@ const VisualIdentity = ({ setPage }) => {
       {/* Back Button */}
       <div className="back-button-container">
         <button onClick={() => setPage("home")} className="back-button">
-          ⬅ العودة إلى الصفحة الرئيسية
+           العودة إلى الصفحة الرئيسية
         </button>
       </div>
 

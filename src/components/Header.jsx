@@ -19,7 +19,7 @@ const Header = () => {
           <ul>
             <li><a href="#home">الصفحة الرئيسية</a></li>
             <li><a href="#services">خدماتنا</a></li>
-            <li><a href="#about">من نحن</a></li>
+            <li><a href="#ourwork">اعمالنا</a></li>
             <li><a href="#contact">تواصل معنا</a></li>
           </ul>
         </nav>

@@ -26,7 +26,7 @@ const DigitalAds = ({ setPage }) => {
       {/* Description */}
       <p className="digital-ads-description">
         نُصمم مواد إعلانية عالية الجودة, سواء للاستخدام الرقمي أو المطبوع,
-        تجمع بين الإبداع البصري والوضوح الرسالي لضمان تحقيق أفضل تفاعل
+        تجمع بين الإبداع البصري والوضوح في رسالة الإعلان لضمان تحقيق أفضل تفاعل
         مع الجمهور المستهدف
       </p>
 
@@ -41,7 +41,7 @@ const DigitalAds = ({ setPage }) => {
       {/* Back Button */}
       <div className="digital-ads-back-button-container">
         <button onClick={() => setPage("home")} className="digital-ads-back-button">
-          ⬅ العودة إلى الصفحة الرئيسية
+           العودة إلى الصفحة الرئيسية
         </button>
       </div>
 

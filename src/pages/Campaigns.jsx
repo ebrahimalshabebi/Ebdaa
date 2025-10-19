@@ -8,7 +8,7 @@ const Campaigns = ({ setPage }) => {
       {/* Top Full Image with Overlay Text */}
       <div className="campaigns-top-image-container">
         <img
-          src="حملات إعلانية.png"
+          src="حملات إعلانية ابداع.png"
           alt="Campaigns"
           className="campaigns-top-image"
         />
@@ -53,7 +53,7 @@ const Campaigns = ({ setPage }) => {
       {/* Back Button */}
       <div className="campaigns-back-button-container">
         <button onClick={() => setPage("home")} className="campaigns-back-button">
-          ⬅ العودة إلى الصفحة الرئيسية
+          العودة إلى الصفحة الرئيسية
         </button>
       </div>
 

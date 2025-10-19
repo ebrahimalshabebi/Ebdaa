@@ -13,6 +13,10 @@ import VisualIdentity from "./pages/VisualIdentity";
 import DigitalAds from "./pages/DigitalAds";
 import Campaigns from "./pages/Campaigns";
 import ContentCreation from "./pages/ContentCreation";
+import OurWork from "./components/OurWork";
+import Digital from "./pages/Digital";
+import Video from "./pages/Video";
+import Motion from "./pages/Motion";
 
 export default function App() {
   const [page, setPage] = useState("home");
@@ -25,13 +29,15 @@ export default function App() {
           <Carousel />
           <Services />
           <WhoWeAre />
-          {/* Pass setPage function down so buttons can navigate */}
           <MarketingServicesGrid setPage={setPage} />
           <Features />
+          <OurWork setPage={setPage} />
           <Footer />
         </>
       )}
-
+      {page === "digital" && <Digital setPage={setPage} />}
+      {page === "video" && <Video setPage={setPage} />}
+      {page === "motion" && <Motion setPage={setPage} />}
       {page === "visualIdentity" && <VisualIdentity setPage={setPage} />}
       {page === "digitalAds" && <DigitalAds setPage={setPage}/>}
       {page === "campaigns" && <Campaigns setPage={setPage}/>}

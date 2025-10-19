@@ -3,7 +3,7 @@ import "./WhoWeAre.css";
 
 const WhoWeAre = () => {
   return (
-    <div className="who-we-are-section" id="about">
+    <div className="who-we-are-section">
       <div className="who-we-are-card">
         {/* Left text */}
         <div className="who-we-are-text">
