@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-section logo">
           <img src="logoSide-06.png" alt="Ebdaa Media" className="logo-img" />
-          <p>إبداع ميديا للدعاية والإعلان والتسويق الإبداعي</p>
+          <p style={{ color: '#0aa3bf' }}>إبداع ميديا للدعاية والإعلان والتسويق الإبداعي</p>
         </div>
 
         <div className="footer-section social">

@@ -52,7 +52,7 @@ const Campaigns = ({ setPage }) => {
 
       {/* Back Button */}
       <div className="campaigns-back-button-container">
-        <button onClick={() => setPage("home")} className="campaigns-back-button">
+        <button onClick={() => setPage("home", { anchor: "services" })} className="campaigns-back-button">
           العودة إلى الصفحة الرئيسية
         </button>
       </div>

@@ -43,7 +43,7 @@ const ContentCreation = ({ setPage }) => {
 
       {/* Back Button */}
       <div className="content-back-button-container">
-        <button onClick={() => setPage("home")} className="content-back-button">
+        <button onClick={() => setPage("home", { anchor: "services" })} className="content-back-button">
            العودة إلى الصفحة الرئيسية
         </button>
       </div>

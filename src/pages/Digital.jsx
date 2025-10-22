@@ -1,10 +1,15 @@
 import React from "react";
 import Footer from "../components/Footer";
+import WorksHeader from "../pages/WorksHeader";
 import "./Works.css";
 
 const Digital = ({ setPage }) => {
   return (
     <div className="motion-page">
+      <WorksHeader
+      onBack={() => setPage("home", { anchor: "ourwork" })}
+      onLogoClick={() => setPage("home")}
+      />
       {/* Top Full Image with Overlay Text */}
       <div className="motion-top-image-container">
         <img
@@ -39,7 +44,7 @@ const Digital = ({ setPage }) => {
           </div>
           <div className="motion-card">
             <img
-              src="images (1).jpg"
+              src="logo-BhufkGMk.webp"
               className="motion-card-image"
             />
           </div>
@@ -50,13 +55,6 @@ const Digital = ({ setPage }) => {
             />
           </div>
         </div>
-      </div>
-
-      {/* Back Button */}
-      <div className="motion-back-button-container">
-        <button onClick={() => setPage("home")} className="motion-back-button">
-          العودة إلى الصفحة الرئيسية
-        </button>
       </div>
 
       <div className="motion-bline"></div>

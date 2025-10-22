@@ -40,7 +40,7 @@ const DigitalAds = ({ setPage }) => {
 
       {/* Back Button */}
       <div className="digital-ads-back-button-container">
-        <button onClick={() => setPage("home")} className="digital-ads-back-button">
+        <button onClick={() => setPage("home", { anchor: "services" })} className="digital-ads-back-button">
            العودة إلى الصفحة الرئيسية
         </button>
       </div>

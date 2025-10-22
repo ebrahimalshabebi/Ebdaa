@@ -211,10 +211,10 @@ body {
   }
 
   .nav ul li {
-    font-size: 0.7rem; /* smaller text */
+    font-size: 0.8rem; /* smaller text */
   }
 
   .nav a {
-    font-size: 0.5rem; /* shrink links */
+    font-size: 0.7rem; /* shrink links */
   }
 }

@@ -18,9 +18,9 @@ const Header = () => {
         <nav className="nav">
           <ul>
             <li><a href="#home">الصفحة الرئيسية</a></li>
-            <li><a href="#services">خدماتنا</a></li>
-            <li><a href="#ourwork">اعمالنا</a></li>
-            <li><a href="#contact">تواصل معنا</a></li>
+            <li><a href="#home/services">خدماتنا</a></li>
+            <li><a href="#home/ourwork">اعمالنا</a></li>
+            <li><a href="#home/contact">تواصل معنا</a></li>
           </ul>
         </nav>
       </div>

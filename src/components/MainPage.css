@@ -153,17 +153,17 @@ body {
   }
 
   .hero-text h1 {
-    font-size: 16px;     /* very small heading */
+    font-size: 19px;     /* very small heading */
     margin-bottom: 5px;
   }
 
   .hero-logo {
-    max-width: 120px;    /* shrink logo */
+    max-width: 180px;    /* shrink logo */
     margin: 5px 0;
   }
 
   .hero-text p {
-    font-size: 10px;     /* very small text */
+    font-size: 13px;     /* very small text */
     line-height: 1.1;
     margin-inline-start: 5px;
   }
