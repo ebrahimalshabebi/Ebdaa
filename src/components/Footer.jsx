@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer" id="contact">
+    <footer className="footer" id="contact" style={{ backgroundImage: "url('homePage.png')" }}>
       <div className="footer-container">
         <div className="footer-section logo">
           <img src="logoSide-06.png" alt="Ebdaa Media" className="logo-img" />
