@@ -18,10 +18,11 @@ import ContentCreation from "./pages/ContentCreation";
 import Digital from "./pages/Digital";
 import Video from "./pages/Video";
 import Motion from "./pages/Motion";
+import Admin from "./pages/Admin";
 
 const PAGES = new Set([
   "home","digital","video","motion",
-  "visualIdentity","digitalAds","campaigns","contentCreation"
+  "visualIdentity","digitalAds","campaigns","contentCreation","admin-ebdaa-2026"
 ]);
 
 function parseHash() {
@@ -60,20 +61,21 @@ export default function App() {
     return () => window.removeEventListener("popstate", onPop);
   }, []);
 
-  // Scroll behavior: when we land on home, optionally scroll to an anchor
   useEffect(() => {
     if (page === "home") {
-      // wait for home to render
       requestAnimationFrame(() => {
         if (anchor) {
           const el = document.getElementById(anchor);
-          if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+          if (el) {
+            el.scrollIntoView({ behavior: "auto", block: "start" });
+          }
         } else {
-          // optional: if no anchor, keep current scroll (do nothing)
-          // or scroll to top if you prefer:
-          // window.scrollTo({ top: 0, behavior: "smooth" });
+          window.scrollTo({ top: 0, behavior: "auto" });
         }
       });
+    } else {
+      // For other pages → always start at top
+      window.scrollTo({ top: 0, behavior: "auto" });
     }
   }, [page, anchor]);
 
@@ -95,6 +97,7 @@ export default function App() {
       {page === "digital" && <Digital setPage={(p, o) => navigate(p, o)} />}
       {page === "video"   && <Video   setPage={(p, o) => navigate(p, o)} />}
       {page === "motion"  && <Motion  setPage={(p, o) => navigate(p, o)} />}
+      {page === "admin-ebdaa-2026" && <Admin />}
 
       {page === "visualIdentity" && (
         <VisualIdentity setPage={(p, o) => navigate(p, o)} />
